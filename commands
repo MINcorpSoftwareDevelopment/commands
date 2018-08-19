@@ -6,9 +6,19 @@ client.on("ready", () => {
 });
 
 client.on("message", (message) => {
-  if (message.content.startsWith("ping")) {
-    message.channel.send("pong!");
+  if (message.content.startsWith("rek")) {
+    message.channel.send("you suck, badly!");
   }
 });
 
 client.login("NDgwNzA3NTUyOTU5NjYwMDMy.Dlrzbw.9MS_OUppS4OzLNYxTMfyKl44-jM");
+//stuff//
+client.on("message", (message) => {
+  if (message.content.startsWith("ping")) {
+    message.channel.send("pong!");
+  } else
+
+  if (message.content.startsWith("XD")) {
+    message.channel.send("XDer!");
+  }
+});
